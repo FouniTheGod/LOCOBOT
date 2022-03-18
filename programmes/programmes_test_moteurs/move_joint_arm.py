@@ -33,7 +33,7 @@ def main():
     joint = setMenu(MENU_ARTICULATION, 1, 5)
     unit = setMenu(MENU_ANGLE, 1, 2)
     
-    angle = float(input("Angle (rad) ? "))
+    angle = float(input("Angle ? "))
     
     if unit == 2:
         angle = toDegree(angle)
