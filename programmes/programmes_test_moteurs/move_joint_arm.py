@@ -22,7 +22,8 @@ def toDegree(rad):
 
 
 def main():
-    MENU_ARTICULATION = "Choisissez une articulation:\n 1- Waist\n 2- Shoulder\n 3- Elbow\n 4- Wrist angle\n 5- Wrist rotate"
+    MENU_ARTICULATION = "Choisissez une articulation:\n 1- Waist\n 2- Shoulder\n 3- Elbow\n "\
+    + "4- Wrist angle\n 5- Wrist rotate"
     MENU_ANGLE = "Unité d'angle:\n -1 Radian\n -2 Degré"
     
     articulations = ["waist", "shoulder", "elbow", "wrist_angle", "wrist_rotate"]
