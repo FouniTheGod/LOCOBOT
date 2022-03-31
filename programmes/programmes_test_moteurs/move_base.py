@@ -8,7 +8,7 @@ def setMenu(texte, choixMin, choixMax):
     """Génère un menu à partir d'un texte et d'un intervalle  de valeurs pour le choix"""
     
     while choix < choixMin || choixMax < choix:
-        choix = int(input(MENU_ARTICULATION))
+        choix = int(input(texte))
         
         if choix < choixMin || choixMax < choix:
             print("Le choix doit être compris entre " + str(choixMin) + " et " + str(choixMax))
